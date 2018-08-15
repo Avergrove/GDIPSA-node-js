@@ -7,7 +7,7 @@ const express = require('express');
 var app = express();
 
 app.get('/', function(req, res){
-    res.send('HI MOM!'); 
+    res.send('<div style="color: #885500; font-size: 350px">HI MOM!</div>'); 
 });
 
 app.listen(1337, function(){
